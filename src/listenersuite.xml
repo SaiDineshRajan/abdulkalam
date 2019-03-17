@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+<listeners>
+<listener class-name="testngprograms.Testlisteners"/>
+</listeners>
+  <test name="Test1">
+  <parameter name="searchword" value="Sachin Tendulkar"/>
+    <classes>
+      <class name="testngprograms.NewGoogle"/>
+      </classes>
+      </test>
+        <test name="Test2">
+       <classes>
+      <class name="testngprograms.Test138ng"/>
+    </classes>
+  </test> 
+</suite> 

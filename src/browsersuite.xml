@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="tests" thread-count="3">
+  <test name="Test1">
+  <parameter name="browser" value="opera"/>
+    <parameter name="searchword" value="family"/>
+    <classes>
+      <class name="testngprograms.BrowserCompatability"/>
+    </classes>
+  </test> 
+  <test name="Test2">
+  <parameter name="browser" value="chrome"/>
+    <parameter name="searchword" value="career"/>
+    <classes>
+      <class name="testngprograms.BrowserCompatability"/>
+    </classes>
+  </test>
+  <test name="Test3">
+  <parameter name="browser" value="opera"/>
+    <parameter name="searchword" value="friends"/>
+    <classes>
+      <class name="testngprograms.BrowserCompatability"/>
+    </classes>
+  </test>
+</suite> 

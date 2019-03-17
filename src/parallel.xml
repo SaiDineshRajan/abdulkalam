@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="classes" thread-count="2">
+  <test name="Test">
+  <parameter name="searchword" value="virat"/>
+  <parameter name="searchword" value="moon stars"/>
+    <classes>
+      <class name="testngprograms.Test137"/>
+       <class name="testngprograms.Test138ng"/>
+    </classes>
+  </test> 
+</suite> 

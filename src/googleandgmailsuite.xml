@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Suite" parallel="false">
+  <test name="Test">
+  <parameter name="searchword" value="kalam"/>
+      <classes>
+    <class name="testngprograms.Test137"/>
+       <class name="testngprograms.Test138ng"/>
+    </classes>
+  </test>
+</suite> 
